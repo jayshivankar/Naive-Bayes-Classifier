@@ -36,7 +36,7 @@ We use the Multinomial Naive Bayes model, which works well for text classificati
 
 
 📈 Example Output
-
+```
 Accuracy: 0.985
 Confusion Matrix:
 [[965   0]
@@ -49,7 +49,7 @@ Classification Report:
 
     accuracy                           0.99      1115
 
-
+```
 📁 File Structure
 ```
 sms-spam-naive-bayes/
