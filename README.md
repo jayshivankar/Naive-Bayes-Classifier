@@ -30,7 +30,8 @@ git clone https://github.com/yourusername/sms-spam-naive-bayes.git
 cd sms-spam-naive-bayes
 pip install -r requirements.txt
 ```
-🧠 Model
+🧠 Model :
+
 We use the Multinomial Naive Bayes model, which works well for text classification problems where features are word frequencies or TF-IDF scores.
 
 
@@ -50,14 +51,14 @@ Classification Report:
 
 
 📁 File Structure
-
+```
 sms-spam-naive-bayes/
 │
 ├── sms_spam.csv                # Dataset
 ├── sms_spam_classifier.py      # Main Python script
 ├── README.md                   # Project documentation
 ├── requirements.txt            # Dependencies
-
+```
 
 📚 Dependencies :
 
