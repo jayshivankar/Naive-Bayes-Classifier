@@ -29,16 +29,12 @@ The dataset used is `sms_spam.csv`, which contains SMS messages labeled as spam 
 git clone https://github.com/yourusername/sms-spam-naive-bayes.git
 cd sms-spam-naive-bayes
 pip install -r requirements.txt
-
-
-
+```
 🧠 Model
 We use the Multinomial Naive Bayes model, which works well for text classification problems where features are word frequencies or TF-IDF scores.
 
 
-
 📈 Example Output
-
 
 Accuracy: 0.985
 Confusion Matrix:
@@ -53,7 +49,6 @@ Classification Report:
     accuracy                           0.99      1115
 
 
-
 📁 File Structure
 
 sms-spam-naive-bayes/
@@ -64,7 +59,8 @@ sms-spam-naive-bayes/
 ├── requirements.txt            # Dependencies
 
 
-📚 Dependencies
+📚 Dependencies :
+
 pandas
 
 scikit-learn
@@ -73,7 +69,8 @@ matplotlib (optional for plotting)
 
 nltk
 
-🧹 Future Improvements
+🧹 Future Improvements :
+
 Hyperparameter tuning
 
 Try other classifiers (e.g., SVM, Logistic Regression)
